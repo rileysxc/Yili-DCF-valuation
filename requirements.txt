@@ -1,0 +1,16 @@
+# 本项目分两个 Python 环境运行，按需要安装对应一组即可。
+#
+# 一、取数与数据处理
+#     本机用 C:\Python314\python.exe（Python 3.14.7）
+akshare==1.19.1
+pandas==3.0.6
+openpyxl==3.1.5
+requests==2.34.2
+
+# 二、绘图与 PDF 读取
+#     本机用 bundled Python（Python 3.12）；C:\Python314 未装 matplotlib。
+#     装到同一个环境也可以，两组并不冲突。
+matplotlib==3.11.2
+pdfplumber==0.11.9
+pypdf==6.10.0
+Pillow==12.3.0
